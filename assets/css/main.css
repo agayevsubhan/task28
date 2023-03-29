@@ -1,0 +1,113 @@
+nav {
+  background-color: rgba(44, 5, 5, 0.712);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+nav div a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgba(255, 255, 255, 0.712);
+}
+nav ul a:hover {
+  color: white;
+}
+nav ul .lia {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+header div div h1 {
+  font-size: 50px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 10px;
+}
+header div div h4 {
+  font-size: 30px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 30px;
+}
+header div div button {
+  font-size: 20px;
+  padding: 20px 40px;
+  border: 0;
+  border-radius: 40px;
+  background-color: rgba(245, 9, 88, 0.719);
+  color: white;
+}
+header div div button:hover {
+  background-color: rgb(245, 9, 87);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+}
+section img {
+  width: 100%;
+  border-radius: 50%;
+}
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+section div h2 {
+  width: 80%;
+}
+section div p {
+  width: 80%;
+}
+
+.sectiondiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0;
+}/*# sourceMappingURL=main.css.map */

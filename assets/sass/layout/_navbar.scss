@@ -1,0 +1,38 @@
+nav{
+    background-color:rgba(44, 5, 5, 0.712) ;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    div{
+        a{
+            text-decoration: none;
+            margin: 10px;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            
+        }
+    }
+    ul{
+        
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            margin: 10px;
+            color: rgba(255, 255, 255, 0.712);
+            &:hover{
+                color: white;
+            }
+        }
+        .lia{
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+
+            
+        }
+    }
+}
